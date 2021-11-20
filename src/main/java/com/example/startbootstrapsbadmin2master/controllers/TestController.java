@@ -21,12 +21,18 @@ public class TestController {
   public String tables1() {
         return "tables1";
     }
-  
   @RequestMapping(value = "/tables2.html")
   public String tables2() {
         return "tables2";
     }
-
+  @RequestMapping(value = "/login.html")
+  public String login() {
+        return "login";
+    }
+  @RequestMapping(value = "/forgot-password.html")
+  public String fp() {
+        return "forgot-password";
+    }
   @RequestMapping(value = "/charts.html")
   public String charts(Model model)
    {
