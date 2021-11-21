@@ -11689,7 +11689,16 @@ a:focus {
     height: 20rem;
     width: 100%;
 }
-
+.chart-horizontal-bar-2 {
+    position: relative;
+    height: 20rem;
+    width: 100%;
+}
+.chart-line {
+    position: relative;
+    height: 20rem;
+    width: 100%;
+}
 @media (min-width: 768px) {
     .chart-area {
         height: 20rem;
