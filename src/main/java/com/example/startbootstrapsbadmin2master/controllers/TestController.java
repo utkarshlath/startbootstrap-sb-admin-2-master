@@ -13,6 +13,10 @@ public class TestController {
   public String hello() {
       return "index";
     }
+    @RequestMapping(value = "/register.html")
+    public String register() {
+        return "register";
+      }
   @RequestMapping(value = "/tables.html")
   public String tables() {
         return "tables";
